@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ToDo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style2.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home" id="home">
+                <div class="name">
+                    <div id="name">To-Do</div>
+                    <!--<div id="ico"><img src="images/iconfinder_Check_27837.png"></div>-->
+                </div>
+                <div class="head">
+                    <span id="date">Satureday,13th March 2020</span>
+                    
+                </div>
+                
+                <div class="items">
+                    <a href="#today" style="text-decoration: none;">
+                    <div class="lbl" id="todaylbl">
+                        <span class="icon"></span>
+                        <span class="caption" id="toToday" >Today</span>
+                        
+                    </div></a>
+
+                    <!--<a href="#" style="text-decoration: none;">
+                    <div class="lbl" id="implbl">
+                        <span class="icon"></span>
+                        <span class="caption">Important</span>
+                    </div></a>-->
+
+                    <a href="#Howto" style="text-decoration: none;">
+                    <div class="lbl" id="toHow">
+                        <span class="icon"></span>
+                        <span class="caption">How to use</span>
+                        
+                    </div></a>
+
+                </div>
+            </div>
+            
+            
+
+
+
+            <div class="today" id="today">
+                <div class="control">
+                    <div class="back" id="todayBack"><a href="#home" style="text-decoration: none;">&#129056;</a></div>
+                    <div class="title">Today</div>
+                    <div class="clear" id="clearbtn">&#x21BA;</div>
+                </div>
+                
+                 
+                <div class='doDiv'>
+                    <div class="do">
+                        <ul class='tasks' id='tasks'>
+                            
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class='addDo'>
+                        <div class="addNew"><input type="text" id="input" placeholder="Add a new"></div>
+                        <div class="round-btn"><button type="button" class="btn" id="btn"  value="+">+</button></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="Howto" id="Howto">
+                <div class="control">
+                    <div class="back" id="todayBack"><a href="index.html" style="text-decoration: none;">&#129056;</a></div>
+                    <div class="title">How to use</div>
+                    <div class="clear" id="clearbtn">&#x21BA;</div>
+                </div>
+                
+                 
+                <div class='doDiv'>
+                    <div class="do">
+                        <ul class='tasks' id='tasks'>
+                            <li class="task" id="01">Swipe right to complete</li>
+                            <li class="task" id="02">Swipe left to delete</li>
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class='addDo'>
+                        <div class="addNew"><input type="text" id="input" placeholder="Add a new"></div>
+                        <div class="round-btn"><button type="button" class="btn" id="btn"  value="+">+</button></div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <script src="js/main.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
